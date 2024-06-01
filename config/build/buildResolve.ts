@@ -8,7 +8,6 @@ export function buildResolve({
   return {
     extensions: ['.ts', '.js'],
     alias: {
-      '~': path.resolve(paths.root, 'public'),
       '@': path.resolve(paths.root, 'src'),
       pages: path.resolve(paths.root, 'src', 'pages'),
     },
