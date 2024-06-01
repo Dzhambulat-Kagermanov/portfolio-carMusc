@@ -1,0 +1,29 @@
+:root {
+  --primaryRed: #db3138;
+  --primaryRedHover: #851d20;
+  --primaryDarkGrey: #141414;
+  --primaryLightGrey: #898989;
+}
+body {
+  background-color: var(--primaryDarkGrey);
+  color: white;
+}
+.container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.inner {
+  max-width: 1536px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+.--dev {
+  background-color: rgba(255, 192, 203, 0.2);
+}
+.--parentBlock {
+  margin: 0 auto 180px auto;
+}
