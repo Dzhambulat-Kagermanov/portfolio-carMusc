@@ -1,0 +1,20 @@
+.block-btn_primary {
+  position: relative;
+  z-index: 2;
+  padding: 15px 25px;
+  &::before {
+    content: '';
+    transition: 0.2s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background-color: var(--primaryRed);
+    z-index: -1;
+  }
+  &:hover::before {
+    width: 100%;
+    background-color: var(--primaryRedHover);
+  }
+}

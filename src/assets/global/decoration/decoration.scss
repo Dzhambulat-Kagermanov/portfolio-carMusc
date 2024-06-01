@@ -1,0 +1,10 @@
+.block-decoration {
+  display: flex;
+  column-gap: 30px;
+  & > span {
+    width: 10px;
+    height: 10px;
+    background-color: var(--primaryRed);
+    rotate: -45deg;
+  }
+}
