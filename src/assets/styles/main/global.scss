@@ -1,0 +1,35 @@
+:root {
+  --var: red;
+  --primaryLightGreen: #00ff29;
+  --primaryHoverGreen: #03a51d;
+  --primaryDarkGrey: #202020;
+  --primaryLightGrey: #5c5c5c;
+  --primaryHoverLightGrey: #858585;
+  --secondDarkGrey: #363636;
+  --textWhite: rgb(255, 255, 255);
+  --textPurple: #ef8eff;
+  --textOpacityWhite: rgba(255, 255, 255, 0.8);
+}
+body {
+  background-color: black;
+  color: white;
+}
+.container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.inner {
+  max-width: 1536px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+.--dev {
+  background-color: pink;
+}
+.--parentBlock {
+  margin: 0 auto 100px auto;
+}
