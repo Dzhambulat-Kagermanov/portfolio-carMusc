@@ -3,6 +3,20 @@
 @media screen and (max-width: 1440px) {
 }
 @media screen and (max-width: 1280px) {
+  // ACHIEVEMENTS
+  .achievements__content {
+    & .achievements__text {
+      .achievements__title {
+        font-size: 45px;
+      }
+      & .achievements__content {
+        row-gap: 30px;
+        .achievements__subtitle {
+          font-size: 22px;
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width: 1024px) {
   // HEAD
@@ -32,8 +46,44 @@
       }
     }
   }
+  // ACHIEVEMENTS
+  .achievements__content {
+    & .achievements__text {
+      .achievements__title {
+        font-size: 40px;
+      }
+    }
+  }
 }
 @media screen and (max-width: 900px) {
+  // ACHIEVEMENTS
+  .achievements__content {
+    flex-wrap: wrap;
+    row-gap: 50px;
+    & .achievements__text {
+      width: 100%;
+      max-height: none;
+      .achievements__title {
+        text-align: center;
+        font-size: 60px;
+      }
+      .achievements__decoration {
+        justify-content: center;
+      }
+      & .achievements__content {
+        .achievements__subtitle {
+          font-size: 28px;
+          text-align: justify;
+        }
+      }
+    }
+    & .achievements__info {
+      width: 100%;
+      .achievements__group {
+        max-width: none;
+      }
+    }
+  }
 }
 @media screen and (max-width: 768px) {
 }
@@ -95,6 +145,19 @@
   }
 }
 @media screen and (max-width: 420px) {
+  // ACHIEVEMENTS
+  .achievements__content {
+    & .achievements__text {
+      .achievements__title {
+        font-size: 45px;
+      }
+      & .achievements__content {
+        .achievements__subtitle {
+          font-size: 22px;
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width: 360px) {
   // HEAD
@@ -102,6 +165,19 @@
     .head__header {
       .head__title {
         font-size: 80px;
+      }
+    }
+  }
+
+  // ACHIEVEMENTS
+  .achievements__content {
+    & .achievements__info {
+      & .achievements__group {
+        & .achievements__item {
+          .achievements__subtitle {
+            font-size: 14px;
+          }
+        }
       }
     }
   }
