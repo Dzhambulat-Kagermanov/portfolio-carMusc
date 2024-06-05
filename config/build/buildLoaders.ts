@@ -20,6 +20,11 @@ export function buildLoaders(options: IBuildOptions): ModuleOptions['rules'] {
     ],
     exclude: '/node_modules/',
   }
+  const cssLoader = {
+    test: /\.css$/i,
+    use: ['style-loader', 'css-loader'],
+    exclude: '/node_modules/',
+  }
   const htmlLoader = {
     test: /\.html$/i,
     loader: 'html-loader',
@@ -39,5 +44,5 @@ export function buildLoaders(options: IBuildOptions): ModuleOptions['rules'] {
     },
   }
 
-  return [htmlLoader, tsLoader, assetImages, assetFonts, scssLoader]
+  return [htmlLoader, tsLoader, assetImages, assetFonts, scssLoader, cssLoader]
 }
