@@ -30,7 +30,7 @@ export function buildLoaders(options: IBuildOptions): ModuleOptions['rules'] {
     loader: 'html-loader',
   }
   const assetImages = {
-    test: /\.(png|svg|jpg|jpeg|gif)$/i,
+    test: /\.(png|svg|jpg|jpeg|gif|ico)$/i,
     type: 'asset/resource',
     generator: {
       filename: 'static/[hash][ext]',
