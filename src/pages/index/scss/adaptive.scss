@@ -54,6 +54,22 @@
       }
     }
   }
+  // SLIDER
+  .slider {
+    & .slider__content {
+      position: relative;
+      & .slider__button {
+        &.left {
+          left: 0%;
+          translate: calc(-50% + 20px) -50%;
+        }
+        &.right {
+          right: 0%;
+          translate: calc(50% - 20px) -50%;
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width: 900px) {
   // ACHIEVEMENTS
@@ -109,6 +125,17 @@
             h2 {
               font-size: 18px;
             }
+          }
+        }
+      }
+    }
+  } // SLIDER
+  .slider {
+    & .slider__content {
+      & .slider__swiper {
+        & .slider__item {
+          & h2 {
+            font-size: 22px;
           }
         }
       }

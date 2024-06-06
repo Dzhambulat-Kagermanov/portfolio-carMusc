@@ -1,17 +1,16 @@
 .slider {
-  overflow: visible;
-  position: relative;
   .slider__content {
+    position: static;
     width: 100%;
     .slider__button {
       position: absolute;
       top: 50%;
       translate: 0 -50%;
       &.left {
-        left: -80px;
+        left: 100px;
       }
       &.right {
-        right: -80px;
+        right: 100px;
       }
     }
     .slider__swiper {
@@ -23,6 +22,9 @@
           object-fit: cover;
         }
         h2 {
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
           margin: 0 auto;
           width: 80%;
           position: relative;

@@ -41,6 +41,8 @@
     left: 0;
     top: 0;
     rotate: -45deg;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.4);
   }
   &.right {
     img {
