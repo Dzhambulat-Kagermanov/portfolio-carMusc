@@ -5,5 +5,6 @@ export function buildDevServer({ port }: IBuildOptions) {
     port: port || 3000,
     hot: false,
     liveReload: true,
+    open: true,
   }
 }
