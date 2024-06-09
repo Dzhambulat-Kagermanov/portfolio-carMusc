@@ -17,6 +17,17 @@
       }
     }
   }
+  // WORKS
+  .works {
+    .works__content {
+      .works__group {
+        .works__subgroup {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width: 1024px) {
   // HEAD
@@ -164,6 +175,26 @@
           .head__item {
             h2 {
               font-size: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+  // WORKS
+  .works {
+    .works__content {
+      .works__group {
+        .works__subgroup {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          .works__item {
+            .works__text_hover {
+              padding: 20px;
+              h2 {
+                -webkit-line-clamp: 4;
+                font-size: 15px;
+              }
             }
           }
         }
