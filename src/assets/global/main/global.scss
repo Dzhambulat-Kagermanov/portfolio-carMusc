@@ -2,6 +2,7 @@
   --primaryRed: #db3138;
   --primaryRedHover: #851d20;
   --primaryDarkGrey: #141414;
+  --scrollbarColor: #474747;
   --primaryLightGrey: #898989;
 }
 body {
@@ -20,6 +21,15 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   position: relative;
+}
+html::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbarColor);
+  border-radius: 5px;
 }
 .--dev {
   background-color: rgba(255, 192, 203, 0.2);
