@@ -26,6 +26,7 @@ const sliderSwiper = new Swiper('.slider__swiper', {
 const aboutSwiper = new Swiper('.about__slider', {
   slidesPerView: 1,
   loop: true,
+  allowTouchMove: false,
   navigation: {
     nextEl: '.about__bar .about__btn.right',
     prevEl: '.about__bar .about__btn.left',
@@ -35,6 +36,7 @@ const aboutSwiper = new Swiper('.about__slider', {
 const aboutTextSwiper = new Swiper('.about__text-slider', {
   slidesPerView: 1,
   loop: true,
+  allowTouchMove: false,
   navigation: {
     nextEl: '.about__bar .about__btn.right',
     prevEl: '.about__bar .about__btn.left',
@@ -46,6 +48,7 @@ const aboutTextSwiper = new Swiper('.about__text-slider', {
 const infoSwiper = new Swiper('.info__slider', {
   slidesPerView: 1,
   loop: true,
+  allowTouchMove: false,
   navigation: {
     nextEl: '.info__bar .info__btn.right',
     prevEl: '.info__bar .info__btn.left',
@@ -55,6 +58,7 @@ const infoSwiper = new Swiper('.info__slider', {
 const infoTextSwiper = new Swiper('.info__text-slider', {
   slidesPerView: 1,
   loop: true,
+  allowTouchMove: false,
   navigation: {
     nextEl: '.info__bar .info__btn.right',
     prevEl: '.info__bar .info__btn.left',
