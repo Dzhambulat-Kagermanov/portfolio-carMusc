@@ -13,7 +13,7 @@
 
 ---
 
-### Ссылка на сайт: [Нажми на меня](https://dzhambulat-kagermanov.github.io/portfolio-carMusc/)
+### Ссылка на сайт: [Нажми на меня](https://portfolio-car-musc.vercel.app/)
 
 ---
 
